@@ -1,10 +1,10 @@
-package com.example.checkout;
+package com.example.kafkastreams;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CheckoutApplicationTests {
+class KafkastreamsApplicationTests {
 
 	@Test
 	void contextLoads() {

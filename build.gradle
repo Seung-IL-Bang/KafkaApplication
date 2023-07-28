@@ -22,32 +22,23 @@ repositories {
 }
 
 dependencies {
-	// Spring Web
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-
-	// Spring devtools
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-
-	// Spring Data JPA
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-
-	// Thymeleaf
-	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-
-	// Spring Apache kafka
-	implementation 'org.springframework.kafka:spring-kafka'
-	testImplementation 'org.springframework.kafka:spring-kafka-test'
-
 	// Lombok
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
-	// H2
-	runtimeOnly 'com.h2database:h2'
+	// Spring Apache Kafka
+	implementation 'org.springframework.kafka:spring-kafka'
+	testImplementation 'org.springframework.kafka:spring-kafka-test'
 
-	// ModelMapper
-	implementation 'org.modelmapper:modelmapper:3.1.1'
+	// Kafka Streams
+	implementation 'org.apache.kafka:kafka-streams'
+
+	// Spring
+	implementation 'org.springframework.boot:spring-boot-starter'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// jsonpath
+	implementation 'com.jayway.jsonpath:json-path:2.7.0'
 }
 
 tasks.named('test') {

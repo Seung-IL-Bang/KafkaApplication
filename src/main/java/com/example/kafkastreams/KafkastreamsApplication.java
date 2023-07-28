@@ -1,13 +1,13 @@
-package com.example.checkout;
+package com.example.kafkastreams;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CheckoutApplication {
+public class KafkastreamsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CheckoutApplication.class, args);
+		SpringApplication.run(KafkastreamsApplication.class, args);
 	}
 
 }
