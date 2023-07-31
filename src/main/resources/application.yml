@@ -5,6 +5,8 @@ spring:
       path: /h2-console
   datasource:
     generate-unique-name: false
+    hikari:
+      jdbc-url: jdbc:h2:mem:test
 
   jpa:
     show-sql: true
