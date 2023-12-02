@@ -5,6 +5,8 @@ Kafka Cluster를 중심으로, E-Commerce 서비스에서 고객의 결제 직�
 
 해당 프로젝트는 패스트캠퍼스의 "대용량 비동기 프로세스를 위한 Kafka 활용" 강의 내용을 기반으로 진행한 클론 코딩 실습으로 Kafka에 대한 이해를 높이기 위해 진행했습니다.
 
+실습을 진행하면서 공부한 내용들은 노션에 정리했습니다. [Kafka 공부 정리](https://successful-hubcap-81e.notion.site/Kafka-c683865e01974e14b1c1b004f6b15436?pvs=4)
+
 
 ### Architecture
 ![image](https://github.com/Seung-IL-Bang/KafkaApplication/assets/87510898/6bd87da8-c107-4a2f-97c0-dab46c5b124e)
